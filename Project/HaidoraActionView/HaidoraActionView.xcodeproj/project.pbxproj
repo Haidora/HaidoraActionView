@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB07E73E1A0CB37700C95B40 /* HDSheetMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AB07E73D1A0CB37700C95B40 /* HDSheetMenu.m */; };
+		ABB0A9A31A0C699C00DB2FB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9A21A0C699C00DB2FB4 /* main.m */; };
+		ABB0A9A61A0C699C00DB2FB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9A51A0C699C00DB2FB4 /* AppDelegate.m */; };
+		ABB0A9A91A0C699C00DB2FB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9A81A0C699C00DB2FB4 /* ViewController.m */; };
+		ABB0A9AC1A0C699C00DB2FB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB0A9AA1A0C699C00DB2FB4 /* Main.storyboard */; };
+		ABB0A9AE1A0C699C00DB2FB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB0A9AD1A0C699C00DB2FB4 /* Images.xcassets */; };
+		ABB0A9B11A0C699C00DB2FB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABB0A9AF1A0C699C00DB2FB4 /* LaunchScreen.xib */; };
+		ABB0A9BD1A0C699C00DB2FB4 /* HaidoraActionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9BC1A0C699C00DB2FB4 /* HaidoraActionViewTests.m */; };
+		ABB0A9CB1A0C69D700DB2FB4 /* HDBaseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9CA1A0C69D700DB2FB4 /* HDBaseMenu.m */; };
+		ABB0A9CE1A0C69E500DB2FB4 /* HDAlertMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9CD1A0C69E500DB2FB4 /* HDAlertMenu.m */; };
+		ABB0A9D11A0C9A9E00DB2FB4 /* HDActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0A9D01A0C9A9E00DB2FB4 /* HDActionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABB0A9B71A0C699C00DB2FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB0A9951A0C699C00DB2FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB0A99C1A0C699C00DB2FB4;
+			remoteInfo = HaidoraActionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB07E73C1A0CB37700C95B40 /* HDSheetMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDSheetMenu.h; sourceTree = "<group>"; };
+		AB07E73D1A0CB37700C95B40 /* HDSheetMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDSheetMenu.m; sourceTree = "<group>"; };
+		ABB0A99D1A0C699C00DB2FB4 /* HaidoraActionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaidoraActionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB0A9A11A0C699C00DB2FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB0A9A21A0C699C00DB2FB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABB0A9A41A0C699C00DB2FB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABB0A9A51A0C699C00DB2FB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABB0A9A71A0C699C00DB2FB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABB0A9A81A0C699C00DB2FB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABB0A9AB1A0C699C00DB2FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABB0A9AD1A0C699C00DB2FB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABB0A9B01A0C699C00DB2FB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABB0A9B61A0C699C00DB2FB4 /* HaidoraActionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaidoraActionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABB0A9BB1A0C699C00DB2FB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB0A9BC1A0C699C00DB2FB4 /* HaidoraActionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaidoraActionViewTests.m; sourceTree = "<group>"; };
+		ABB0A9C91A0C69D700DB2FB4 /* HDBaseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDBaseMenu.h; sourceTree = "<group>"; };
+		ABB0A9CA1A0C69D700DB2FB4 /* HDBaseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDBaseMenu.m; sourceTree = "<group>"; };
+		ABB0A9CC1A0C69E500DB2FB4 /* HDAlertMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDAlertMenu.h; sourceTree = "<group>"; };
+		ABB0A9CD1A0C69E500DB2FB4 /* HDAlertMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDAlertMenu.m; sourceTree = "<group>"; };
+		ABB0A9CF1A0C9A9E00DB2FB4 /* HDActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDActionView.h; sourceTree = "<group>"; };
+		ABB0A9D01A0C9A9E00DB2FB4 /* HDActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDActionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABB0A99A1A0C699C00DB2FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB0A9B31A0C699C00DB2FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABB0A9941A0C699C00DB2FB4 = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9C61A0C69A700DB2FB4 /* Resource */,
+				ABB0A9C71A0C69A700DB2FB4 /* Source */,
+				ABB0A99F1A0C699C00DB2FB4 /* HaidoraActionView */,
+				ABB0A9B91A0C699C00DB2FB4 /* HaidoraActionViewTests */,
+				ABB0A99E1A0C699C00DB2FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABB0A99E1A0C699C00DB2FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A99D1A0C699C00DB2FB4 /* HaidoraActionView.app */,
+				ABB0A9B61A0C699C00DB2FB4 /* HaidoraActionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABB0A99F1A0C699C00DB2FB4 /* HaidoraActionView */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9A41A0C699C00DB2FB4 /* AppDelegate.h */,
+				ABB0A9A51A0C699C00DB2FB4 /* AppDelegate.m */,
+				ABB0A9A71A0C699C00DB2FB4 /* ViewController.h */,
+				ABB0A9A81A0C699C00DB2FB4 /* ViewController.m */,
+				ABB0A9AA1A0C699C00DB2FB4 /* Main.storyboard */,
+				ABB0A9AD1A0C699C00DB2FB4 /* Images.xcassets */,
+				ABB0A9AF1A0C699C00DB2FB4 /* LaunchScreen.xib */,
+				ABB0A9A01A0C699C00DB2FB4 /* Supporting Files */,
+			);
+			path = HaidoraActionView;
+			sourceTree = "<group>";
+		};
+		ABB0A9A01A0C699C00DB2FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9A11A0C699C00DB2FB4 /* Info.plist */,
+				ABB0A9A21A0C699C00DB2FB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB0A9B91A0C699C00DB2FB4 /* HaidoraActionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9BC1A0C699C00DB2FB4 /* HaidoraActionViewTests.m */,
+				ABB0A9BA1A0C699C00DB2FB4 /* Supporting Files */,
+			);
+			path = HaidoraActionViewTests;
+			sourceTree = "<group>";
+		};
+		ABB0A9BA1A0C699C00DB2FB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9BB1A0C699C00DB2FB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB0A9C61A0C69A700DB2FB4 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			path = ../../Resource;
+			sourceTree = "<group>";
+		};
+		ABB0A9C71A0C69A700DB2FB4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9CF1A0C9A9E00DB2FB4 /* HDActionView.h */,
+				ABB0A9D01A0C9A9E00DB2FB4 /* HDActionView.m */,
+				ABB0A9C81A0C69C200DB2FB4 /* Menus */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		ABB0A9C81A0C69C200DB2FB4 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				ABB0A9C91A0C69D700DB2FB4 /* HDBaseMenu.h */,
+				ABB0A9CA1A0C69D700DB2FB4 /* HDBaseMenu.m */,
+				ABB0A9CC1A0C69E500DB2FB4 /* HDAlertMenu.h */,
+				ABB0A9CD1A0C69E500DB2FB4 /* HDAlertMenu.m */,
+				AB07E73C1A0CB37700C95B40 /* HDSheetMenu.h */,
+				AB07E73D1A0CB37700C95B40 /* HDSheetMenu.m */,
+			);
+			path = Menus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABB0A99C1A0C699C00DB2FB4 /* HaidoraActionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB0A9C01A0C699C00DB2FB4 /* Build configuration list for PBXNativeTarget "HaidoraActionView" */;
+			buildPhases = (
+				ABB0A9991A0C699C00DB2FB4 /* Sources */,
+				ABB0A99A1A0C699C00DB2FB4 /* Frameworks */,
+				ABB0A99B1A0C699C00DB2FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaidoraActionView;
+			productName = HaidoraActionView;
+			productReference = ABB0A99D1A0C699C00DB2FB4 /* HaidoraActionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABB0A9B51A0C699C00DB2FB4 /* HaidoraActionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB0A9C31A0C699C00DB2FB4 /* Build configuration list for PBXNativeTarget "HaidoraActionViewTests" */;
+			buildPhases = (
+				ABB0A9B21A0C699C00DB2FB4 /* Sources */,
+				ABB0A9B31A0C699C00DB2FB4 /* Frameworks */,
+				ABB0A9B41A0C699C00DB2FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB0A9B81A0C699C00DB2FB4 /* PBXTargetDependency */,
+			);
+			name = HaidoraActionViewTests;
+			productName = HaidoraActionViewTests;
+			productReference = ABB0A9B61A0C699C00DB2FB4 /* HaidoraActionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABB0A9951A0C699C00DB2FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Haidora;
+				TargetAttributes = {
+					ABB0A99C1A0C699C00DB2FB4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ABB0A9B51A0C699C00DB2FB4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ABB0A99C1A0C699C00DB2FB4;
+					};
+				};
+			};
+			buildConfigurationList = ABB0A9981A0C699C00DB2FB4 /* Build configuration list for PBXProject "HaidoraActionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABB0A9941A0C699C00DB2FB4;
+			productRefGroup = ABB0A99E1A0C699C00DB2FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABB0A99C1A0C699C00DB2FB4 /* HaidoraActionView */,
+				ABB0A9B51A0C699C00DB2FB4 /* HaidoraActionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABB0A99B1A0C699C00DB2FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB0A9AC1A0C699C00DB2FB4 /* Main.storyboard in Resources */,
+				ABB0A9B11A0C699C00DB2FB4 /* LaunchScreen.xib in Resources */,
+				ABB0A9AE1A0C699C00DB2FB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB0A9B41A0C699C00DB2FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABB0A9991A0C699C00DB2FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB0A9D11A0C9A9E00DB2FB4 /* HDActionView.m in Sources */,
+				ABB0A9A91A0C699C00DB2FB4 /* ViewController.m in Sources */,
+				ABB0A9A61A0C699C00DB2FB4 /* AppDelegate.m in Sources */,
+				ABB0A9A31A0C699C00DB2FB4 /* main.m in Sources */,
+				ABB0A9CB1A0C69D700DB2FB4 /* HDBaseMenu.m in Sources */,
+				ABB0A9CE1A0C69E500DB2FB4 /* HDAlertMenu.m in Sources */,
+				AB07E73E1A0CB37700C95B40 /* HDSheetMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB0A9B21A0C699C00DB2FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB0A9BD1A0C699C00DB2FB4 /* HaidoraActionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB0A9B81A0C699C00DB2FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB0A99C1A0C699C00DB2FB4 /* HaidoraActionView */;
+			targetProxy = ABB0A9B71A0C699C00DB2FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABB0A9AA1A0C699C00DB2FB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB0A9AB1A0C699C00DB2FB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABB0A9AF1A0C699C00DB2FB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB0A9B01A0C699C00DB2FB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABB0A9BE1A0C699C00DB2FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABB0A9BF1A0C699C00DB2FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABB0A9C11A0C699C00DB2FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraActionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABB0A9C21A0C699C00DB2FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaidoraActionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABB0A9C41A0C699C00DB2FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraActionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraActionView.app/HaidoraActionView";
+			};
+			name = Debug;
+		};
+		ABB0A9C51A0C699C00DB2FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaidoraActionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaidoraActionView.app/HaidoraActionView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABB0A9981A0C699C00DB2FB4 /* Build configuration list for PBXProject "HaidoraActionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB0A9BE1A0C699C00DB2FB4 /* Debug */,
+				ABB0A9BF1A0C699C00DB2FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB0A9C01A0C699C00DB2FB4 /* Build configuration list for PBXNativeTarget "HaidoraActionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB0A9C11A0C699C00DB2FB4 /* Debug */,
+				ABB0A9C21A0C699C00DB2FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB0A9C31A0C699C00DB2FB4 /* Build configuration list for PBXNativeTarget "HaidoraActionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB0A9C41A0C699C00DB2FB4 /* Debug */,
+				ABB0A9C51A0C699C00DB2FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABB0A9951A0C699C00DB2FB4 /* Project object */;
+}

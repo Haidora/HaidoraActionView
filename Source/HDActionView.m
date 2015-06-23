@@ -76,7 +76,7 @@
         UIWindow *window = [[UIApplication sharedApplication] keyWindow];
         if (!window)
             window = [[UIApplication sharedApplication].windows objectAtIndex:0];
-        [[[window subviews] objectAtIndex:0] addSubview:self];
+        [[[window subviews] lastObject] addSubview:self];
     }
     [self.menus makeObjectsPerformSelector:@selector(removeFromSuperview)];
     [self.menus addObject:menu];

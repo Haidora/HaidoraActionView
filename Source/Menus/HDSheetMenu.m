@@ -240,7 +240,7 @@
                        ^{
                            if(weakSelf.actionHandle)
                            {
-                               weakSelf.actionHandle(tag, weakSelf);
+                               weakSelf.actionHandle(indexPath.row, weakSelf);
                            }
                        });
     }
